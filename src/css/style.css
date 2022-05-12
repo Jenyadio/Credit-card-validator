@@ -6,10 +6,12 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
 .cards {
     margin: 10px 0;
     height: 25px;
 }
+
 .list-unstyled {
     padding-left: 0;
     list-style: none;
@@ -54,14 +56,16 @@ ul {
     margin-right: 4px;
 }
 
-.blackout {
-    opacity: 0.2;
+.opacity {
+    opacity: 0.3;
 }
+
 .form-inline .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
 }
+
 .form-control {
     padding: 6px 12px;
     font-size: 14px;
