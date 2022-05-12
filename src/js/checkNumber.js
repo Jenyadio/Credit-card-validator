@@ -4,10 +4,16 @@ export default function checkNumber(number) {
     return false;
   }
   for (let i = 0; i < number.length; i += 1) {
-    let digit = Number(number[i]);
-    if (i % 2 === 0) digit *= 2;
-    if (digit > 9) result += digit - 9;
-    else result += digit;
+    let cardNum = parseInt(number[i], 10);
+
+    if ((number.length - i) % 2 === 0) {
+      cardNum *= 2;
+
+      if (cardNum > 9) {
+        cardNum -= 9;
+      }
+    }
+    result += cardNum;
   }
   return result % 10 === 0;
 }

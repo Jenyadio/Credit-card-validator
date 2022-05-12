@@ -1,5 +1,5 @@
 import definePaymentSystem from './definePaymentSystem';
-import checkNumber from './validate';
+import checkNumber from './checkNumber';
 
 const btn = document.querySelector('.btn');
 const input = document.querySelector('.form-control');
