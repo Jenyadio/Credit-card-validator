@@ -1,3 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/otptf34wv9aph75d?svg=true)](https://ci.appveyor.com/project/Jenyadio/env)
+[![Build status](https://ci.appveyor.com/api/projects/status/7c20msqeaoiyk3kc?svg=true)](https://ci.appveyor.com/project/Jenyadio/credit-card-validator)
 
-https://jenyadio.github.io/Env/
+https://jenyadio.github.io/Credit-card-validator/
