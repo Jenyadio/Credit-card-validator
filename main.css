@@ -1,0 +1,106 @@
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.cards {
+    margin: 10px 0;
+    height: 25px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.card.visa {
+    background-image: url(545145c60c726b397f61.png);
+    background-size: cover;
+}
+
+.card.amex {
+    background-image: url(23a3dfa76c9c691ff89c.png);
+    background-size: cover;
+}
+
+.card.jcb {
+    background-image: url(ef3040599497feebacda.png);
+    background-size: cover;
+}
+
+.card.master {
+    background-image: url(5ca1f088ecdd58e47981.png);
+    background-size: cover;
+}
+
+.card.unionpay {
+    background-image: url(b70ae94136c504cbb112.png);
+    background-size: cover;
+}
+
+.card.mir {
+    background-image: url(0a96299d1ef0c6f3a08e.png);
+    background-size: cover;
+}
+
+.card {
+    float: left;
+    width: 39px;
+    height: 25px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px;
+}
+
+.opacity {
+    opacity: 0.3;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.form-control {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+a {
+    text-decoration: none;
+}
